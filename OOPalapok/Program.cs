@@ -1,4 +1,7 @@
-﻿namespace OOPalapok
+﻿using System;
+using System.Security.Cryptography.X509Certificates;
+
+namespace OOPalapok
 {
 	internal class Program
 	{
@@ -21,6 +24,9 @@
 
             } else { Console.WriteLine("Gatya"); }
             Console.WriteLine(decemeber);
+
+			
         }
+		
 	}
 }

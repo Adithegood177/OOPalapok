@@ -8,8 +8,8 @@ namespace OOPalapok
 {
 	internal class Ember
 	{
-		private double testSuly { get; set; }
-		private double testMagassag { get; set; }
+		public double testSuly { get;private set; }
+		public double testMagassag { get;private set; }
 
 		public Ember(double TestSuly, double TestMagassag)
 		{
